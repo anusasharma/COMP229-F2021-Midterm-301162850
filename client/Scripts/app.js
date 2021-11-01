@@ -106,7 +106,7 @@ $.fn.pageMe = function(opts){
 // IIFE
 (function(){
   $(".btn-danger").click(function(event){
-    if(!confirm("Are you sure o delete it?")) {
+    if(!confirm("Are you sure to delete it?")) {
       event.preventDefault();
       window.location.assign("/games");
     }
